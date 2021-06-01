@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700|Rubik:400,600,700");
 body {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
   line-height: 30px;
   font-family: "Rubik", sans-serif;
@@ -11,7 +11,7 @@ body {
 p {
   line-height: 26px;
   letter-spacing: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 40px;
 }
 
@@ -97,30 +97,30 @@ li {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 38px;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 32px;
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 }
 
 h6 {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 26px;
 }
 
@@ -147,13 +147,13 @@ h6 {
 
 .section-heading {
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
   width: 90%;
   margin: 60px 60px;
 }
 
 .section-title {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
   line-height: 38px;
   margin-bottom: 15px;
@@ -423,7 +423,7 @@ h6 {
   margin: 20px 0px;
   color: #fff;
   text-shadow: 1px 1px rgb(0 0 0 / 85%);
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
   line-height: 30px;
 }
@@ -471,7 +471,7 @@ h6 {
 
 #intro .section-heading p {
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 40px;
 }
 
@@ -500,7 +500,7 @@ h6 {
 }
 
 .intro-box span {
-  font-size: 28px;
+  font-size: 1.75rem;
   color: #48ccfb;
 }
 /*--------------------------
@@ -582,7 +582,7 @@ h6 {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 0.9375rem;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -674,7 +674,7 @@ h6 {
 }
 
 .testimonial-content p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 36px;
   color: #222;
   margin: 35px 0px;
@@ -686,7 +686,7 @@ h6 {
 }
 
 .author-text p {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 20px;
   margin-bottom: 36px;
   color: #888;
@@ -781,17 +781,18 @@ TESTIMONIAL SECTION AREA
   #intro .section-heading,
   .section-heading {
     width: 100%;
+    margin: 0;
   }
   #intro .section-heading p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
   }
   .section-title {
-    font-size: 26px;
+    font-size: 1.625rem;
     line-height: 36px;
   }
   h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 36px;
   }
   /*--------------------
@@ -801,7 +802,7 @@ TESTIMONIAL SECTION AREA
     line-height: 37px;
   }
   .banner-content p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   /*----------------
      INTRO
@@ -847,23 +848,7 @@ TESTIMONIAL SECTION AREA
     margin-bottom: 30px;
     text-align: center;
   }
-  /*--------------
-     BLOG
-    ----------------*/
-  .blog-block {
-    margin-bottom: 30px;
-  }
-  .blog-text {
-    padding: 10px;
-    margin-top: 10px;
-    text-align: center;
-  }
-  .blog-tex h5 {
-    font-size: 15px;
-  }
-  .blog-text p {
-    font-size: 14px;
-  }
+
   /*--------------
      CLIENT
     --------------*/
