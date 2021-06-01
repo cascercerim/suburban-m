@@ -38,8 +38,6 @@ h3,
 .h3,
 h4,
 .h4,
-h5,
-.h5,
 h6,
 .h6 {
   font-family: "Poppins", sans-serif;
@@ -58,6 +56,10 @@ img {
   max-width: 100%;
 }
 
+.book-img {
+  max-width: 100%;
+}
+
 .drk {
   border-radius: 3%;
   padding: 10px 10px 10px 10px;
@@ -72,7 +74,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 600px;
+  height: 300px;
+  margin-right: 50px;
 }
 
 a:hover {
@@ -124,11 +128,6 @@ h6 {
   color: #48ccfb;
 }
 
-h5.subtitle {
-  font-size: 16px;
-  font-weight: 400;
-}
-
 .no-padding {
   padding: 0;
 }
@@ -154,7 +153,7 @@ h5.subtitle {
 }
 
 .section-title {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 38px;
   margin-bottom: 15px;
@@ -240,7 +239,7 @@ h5.subtitle {
 .btn-clear {
   background-color: transparent;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #000;
   font-size: 1.2em;
   border-color: rgb(255, 255, 255);
   border-width: 0.3em;
@@ -375,10 +374,6 @@ h5.subtitle {
   background-size: cover;
   color: white;
 }
-
-/* ========================
-
-==============================*/
 
 .heading h3 {
   margin-bottom: 10px;
@@ -534,7 +529,7 @@ h5.subtitle {
   height: 100%;
 }
 /*------------------------------------
-  CAROUSEL SECTION
+  SLIDESHOW SECTION
 ---------------------------------*/
 
 * {
@@ -703,65 +698,7 @@ h5.subtitle {
 }
 
 /*--------------------------
- CONTACT SECTION AREA
-----------------------*/
-#contact {
-  padding-bottom: 100px;
-}
-
-.text-color {
-  color: #48ccfb;
-}
-
-input[type="text"],
-input[type="email"] {
-  height: 50px;
-}
-
-.form-control {
-  border: 1px solid #eee;
-  padding-left: 20px;
-}
-
-.form-control:hover,
-.form-control:focus {
-  box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
-}
-
-.input:focus {
-  outline: none;
-}
-
-.form-control::-webkit-input-placeholder {
-  color: #888;
-  opacity: 0.9;
-  font-size: 13px;
-  padding-left: 10px;
-}
-
-.form-control::-moz-placeholder {
-  color: #888;
-  opacity: 0.9;
-  font-size: 13px;
-  padding-left: 10px;
-}
-
-.form-control:-ms-input-placeholder {
-  color: #888;
-  opacity: 0.9;
-  font-size: 13px;
-  padding-left: 10px;
-}
-
-.form-control:-moz-placeholder {
-  color: #888;
-  opacity: 0.9;
-  font-size: 13px;
-  padding-left: 10px;
-}
-
-/*--------------------------
- BLOG SECTION AREA
+TESTIMONIAL SECTION AREA
 ----------------------*/
 .t-block {
   overflow: hidden;
@@ -805,6 +742,14 @@ input[type="email"] {
     ----------------*/
   #intro {
     padding-bottom: 90px;
+  }
+
+  /*----------------
+  SLIDESHOW
+  ------------------*/
+
+  .video-stream {
+    width: 100%;
   }
 }
 
