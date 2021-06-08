@@ -32,8 +32,6 @@ body {
 
 h1,
 .h1,
-h2,
-.h2,
 h3,
 .h3,
 h4,
@@ -98,10 +96,6 @@ li {
 
 h1 {
   font-size: 3.75rem;
-}
-
-h2 {
-  font-size: 2.5rem;
 }
 
 h3 {
@@ -415,10 +409,6 @@ h6 {
   text-transform: uppercase;
 }
 
-.subtitle {
-  color: #48ccfb;
-}
-
 .banner-content p {
   margin: 20px 0px;
   color: #fff;
@@ -440,10 +430,6 @@ h6 {
   margin-right: 12px;
 }
 
-.btn-sm {
-  padding: 10px 30px;
-}
-
 .banner-1 {
   background-size: cover;
   position: relative;
@@ -453,7 +439,7 @@ h6 {
   position: relative;
 }
 
-.section-heading h2 {
+.section-heading {
   margin-bottom: 20px;
   font-weight: 400;
 }
@@ -658,41 +644,6 @@ h6 {
   background: #48ccfb;
 }
 
-.testimonial-content {
-  padding: 0px 40px;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.testimonial-content .author-text {
-  padding-top: 10px;
-}
-
-.testimonial-content .author-info {
-  display: block;
-  margin-bottom: 25px;
-}
-
-.testimonial-content p {
-  font-size: 1.25rem;
-  line-height: 36px;
-  color: #222;
-  margin: 35px 0px;
-  display: block;
-}
-
-.author-text h5 {
-  text-transform: uppercase;
-}
-
-.author-text p {
-  font-size: 0.875rem;
-  line-height: 20px;
-  margin-bottom: 36px;
-  color: #888;
-  margin: 0px;
-}
-
 .testimonial-content p i {
   margin: 0px 8px;
 }
@@ -742,14 +693,6 @@ TESTIMONIAL SECTION AREA
     ----------------*/
   #intro {
     padding-bottom: 90px;
-  }
-
-  /*----------------
-  SLIDESHOW
-  ------------------*/
-
-  .video-stream {
-    width: 100%;
   }
 }
 
@@ -809,50 +752,5 @@ TESTIMONIAL SECTION AREA
     ----------------*/
   #intro {
     padding-bottom: 90px;
-  }
-  /*----------------
-     ABOUT
-    ----------------*/
-  .about-list li {
-    float: none;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .about-bg-img {
-    width: 35%;
-    height: 100%;
-    max-height: 600px;
-  }
-  .about-content {
-    margin-top: 60px;
-  }
-  #about {
-    padding-bottom: 40px;
-  }
-  .img-block img {
-    width: 130px;
-  }
-  .service-block {
-    margin-bottom: 20px;
-  }
-  /*-------------------
-     TESTIMONIAL
-    -------------------*/
-  .testimonial-content {
-    padding: 10px;
-  }
-  /*--------------
-     COUNTER
-    ----------------*/
-  .counter-stat {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
-  /*--------------
-     CLIENT
-    --------------*/
-  .client-img {
-    text-align: center;
   }
 }
